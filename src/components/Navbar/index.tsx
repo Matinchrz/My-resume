@@ -1,6 +1,5 @@
 import { Link } from "react-scroll";
 import NavbarMobile from "../NavbarMobile";
-import { Separator } from "../ui/separator";
 
 const Navbar = () => {
   return (
@@ -21,7 +20,6 @@ const Navbar = () => {
           >
             اطلاعات شخصی
           </Link>
-          <Separator />
           <Link
             to="about"
             spy={true}
