@@ -1,7 +1,7 @@
 const AboutThisSite = () => {
   return (
     <div
-      className="sm:my-24 my-12 rounded-2xl flex w-full bg-gray-100 lg:max-w-[1000px] p-5 shadow-2xl flex-col justify-center gap-y-4 items-center"
+      className="sm:my-24 my-16 rounded-2xl flex w-full bg-gray-100 lg:max-w-[1000px] p-5 shadow-2xl flex-col justify-center gap-y-4 items-center"
       id="site"
     >
       <p className="sm:font-medium sm:text-base text-sm">
@@ -25,7 +25,7 @@ const AboutThisSite = () => {
 
       <p className="sm:font-medium sm:text-base text-sm">
         در اجرای انیمیشن ها از پکیجی استفاده نشده و تمامی انیمیشن ها با CSS
-        نوشته شده است .
+        نوشته شده و این سایت full responsive نوشته شده است.
       </p>
     </div>
   );
